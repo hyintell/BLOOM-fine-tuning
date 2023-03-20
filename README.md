@@ -21,7 +21,7 @@ python finetune-alpaca.py \
     --gradient_accumulation_steps 1 \
     --num_train_epochs 2 \
     --learning_rate 2e-5 \
-    --fp16 \
+    --fp16 True \
     --logging_steps 10 \
     --output_dir output
 ```
